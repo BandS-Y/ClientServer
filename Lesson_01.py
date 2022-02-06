@@ -110,11 +110,15 @@ def my_ping(site):
 
     for line in result.stdout:
         result = chardet.detect(line)
+        # у меня, как ни странно стоит Windows  и по умолчанию СР1251, но результаты пинга выдавались
+        # {'encoding': 'IBM866', 'confidence': 0.99, 'language': 'Russian'}
+        # поэтому решение с кодировкой по умолчанию не прошло
+        # print(result)
         line = line.decode(result['encoding']).encode('utf-8')
         print(line.decode('utf-8'))
 
-for site in sites:
-    my_ping(site)
+# for site in sites:
+#     my_ping(site)
 
 
 
@@ -124,3 +128,24 @@ print ('\n--------------- Задача 6 ---------------\n')
 # «декоратор». Далее забыть о том, что мы сами только что создали этот файл и исходить из того, что перед нами файл
 # в неизвестной кодировке. Задача: открыть этот файл БЕЗ ОШИБОК вне зависимости от того, в какой кодировке он был создан.
 
+words = ['сетевое программирование', 'сокет', 'декоратор']
+file_name = 'test.txt'
+
+def file_write(file_name, words):
+    with open(file_name, 'w') as f:
+        for word in words:
+            f.write(word + '\n')
+
+
+def file_read(file_name):
+    with open(file_name, 'rb') as f:
+        content = f.read()
+    encoding = chardet.detect(content)['encoding']
+
+    with open(file_name, encoding=encoding) as f:
+        for line in f:
+            print(line, end='')
+        print()
+
+file_write(file_name, words)
+file_read(file_name)
