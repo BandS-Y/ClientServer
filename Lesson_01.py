@@ -117,8 +117,8 @@ def my_ping(site):
         line = line.decode(result['encoding']).encode('utf-8')
         print(line.decode('utf-8'))
 
-# for site in sites:
-#     my_ping(site)
+for site in sites:
+    my_ping(site)
 
 
 
