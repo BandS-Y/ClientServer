@@ -27,7 +27,7 @@ def file_read(file_names):
     os_code_list = []
     os_type_list = []
     main_data = ['Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы']
-    
+
     for file_name in file_names:
         with open(file_name, 'rb') as f:
             content = f.read()
