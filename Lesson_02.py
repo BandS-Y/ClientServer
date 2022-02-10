@@ -119,3 +119,16 @@ write_order_to_json('pencle', 12, 15.50, 'Petrov P.P.', '29.11.2020')
 # файла с помощью параметра default_flow_style, а также установить возможность работы с юникодом: allow_unicode = True;
 # Реализовать считывание данных из созданного файла и проверить, совпадают ли они с исходными.
 
+first_key = ['first', 'second', 'third']
+second_key = 123
+third_key = {'1212€': {'first': 23, 'second': 25, 'third': 28}, '323¥' : {'first': 13, 'second': 15, 'third': 18}}
+all_data = {'first_key': first_key, 'second_key': second_key, 'third_key': third_key}
+
+with open('file.yaml', 'w', encoding='utf-8') as f_n:
+    yaml.dump(all_data, f_n, default_flow_style=False, allow_unicode=True)
+
+with open('file.yaml', 'r', encoding='utf-8') as f_n:
+    F_N_CONTENT = yaml.load(f_n, Loader=yaml.FullLoader)
+
+print(F_N_CONTENT)
+print(all_data==F_N_CONTENT)
