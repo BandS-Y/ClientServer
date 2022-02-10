@@ -11,11 +11,13 @@
 # Создать функцию write_to_csv(), в которую передавать ссылку на CSV-файл. В этой функции реализовать получение данных
 # через вызов функции get_data(), а также сохранение подготовленных данных в соответствующий CSV-файл;
 # Проверить работу программы через вызов функции write_to_csv().
-import json
+
 
 import chardet
 import re
+
 import csv
+import json
 import yaml
 
 file_names = ['info_1.txt', 'info_2.txt', 'info_3.txt']
@@ -72,7 +74,7 @@ def write_to_csv(file_name):
         writer.writerows(file_read(file_names))
 
 
-# write_to_csv(out_file)
+write_to_csv(out_file)
 
 
 # 2. Задание на закрепление знаний по модулю json. Есть файл orders в формате JSON с информацией о заказах. Написать
