@@ -1,0 +1,39 @@
+{
+    "orders": [
+        {
+            "buyer": "Petrov P.P.",
+            "date": "20.12.2020",
+            "item": "pen",
+            "price": 3.5,
+            "quantity": 10
+        },
+        {
+            "buyer": "Smirnov P.P.",
+            "date": "10.12.2020",
+            "item": "pencil",
+            "price": 4.5,
+            "quantity": 15
+        },
+        {
+            "buyer": "Gaurgoff P.P.",
+            "date": "11.12.2021",
+            "item": "unpen",
+            "price": 599.99,
+            "quantity": 1
+        },
+        {
+            "buyer": "Trov P.P.",
+            "date": "01.12.2021",
+            "item": "penal",
+            "price": 50.99,
+            "quantity": 100
+        },
+        {
+            "buyer": "Petrov P.P.",
+            "date": "29.11.2020",
+            "item": "pencle",
+            "price": 15.5,
+            "quantity": 12
+        }
+    ]
+}
