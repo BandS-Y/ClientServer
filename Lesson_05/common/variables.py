@@ -1,6 +1,8 @@
 # Файл переменных
 
 # Порт по умолчанию
+import logging
+
 DEF_PORT = 7777
 # IP Адрес по умолчанию
 DEF_IP_ADDR = '127.0.0.1'
@@ -10,6 +12,9 @@ MAX_CONNECTIONS = 5
 MAX_LEN_MESSAGE = 1024
 # Кодировка сообщения
 ENCODING = 'utf-8'
+
+# Текущий уровень логирования
+LOGGING_LEVEL = logging.DEBUG
 
 # Ключи протокола JIM
 ACTION = 'action'
