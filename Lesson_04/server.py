@@ -2,6 +2,7 @@
 import json
 import sys
 
+
 from common.variables import DEF_PORT, MAX_CONNECTIONS, ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, \
 RESPONDEFAULT_IP_ADDR, ERROR
 
@@ -23,11 +24,9 @@ def process_client_message(message):
         and USER in message \
         and message[USER][ACCOUNT_NAME] == 'Guest':
         return {RESPONSE: 200}
-    return {RESPONDEFAULT_IP_ADDR: 400, ERROR: 'Bad Request'}
+    return {RESPONSE: 400, ERROR: 'Bad Request'}
 
-
-
-def main():
+def port_define():
     """
     Обработка командной строки с параметрами порта и IP адреса.
     Если параметры не заданы, то по умолчанию из файла variables
@@ -44,14 +43,17 @@ def main():
             listen_port = DEF_PORT
         if listen_port < 1024 or listen_port> 65535:
             raise ValueError
+        return listen_port
     except IndexError:
         print('После параметра -р необходимо указать номер порта')
         sys.exit(1)
     except ValueError:
         print('порт должен быть в диапазоне от 1024 до 56535')
         sys.exit(1)
+        # raise ValueError
 
 
+def addres_define():
     # Проверяем парамет IP адреса
     try:
         if '-a' in sys.argv:
@@ -61,8 +63,14 @@ def main():
     except IndexError:
         print('После параметра -a необходимо указать IP адрес, который будет слушать сервер')
         sys.exit(1)
-    print(listen_port)
-    print(listen_addres)
+    return listen_addres
+
+
+def main():
+    listen_port = port_define()
+    # print(listen_port)
+    listen_addres = addres_define()
+    # print(listen_addres)
     # Организуем сокет
 
     transport = socket(AF_INET, SOCK_STREAM)
@@ -86,6 +94,7 @@ def main():
         except (ValueError, json.JSONDecodeError):
             print('Принято некорректное сообщение от клиента')
             client.close()
+            print(f'клинет с адреса {client_addr[0]} и потра {client_addr[1]} отключен')
 
 if __name__ == '__main__':
     main()
