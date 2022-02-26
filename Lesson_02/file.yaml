@@ -1,0 +1,14 @@
+first_key:
+- first
+- second
+- third
+second_key: 123
+third_key:
+  1212€:
+    first: 23
+    second: 25
+    third: 28
+  323¥:
+    first: 13
+    second: 15
+    third: 18
