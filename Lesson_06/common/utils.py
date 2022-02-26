@@ -2,7 +2,10 @@
 
 import json
 from common.variables import MAX_LEN_MESSAGE, ENCODING
+from decos import log
 
+
+@log
 def get_message(client):
     """
     Функция получения сообщения
@@ -22,6 +25,8 @@ def get_message(client):
         raise ValueError
     raise ValueError
 
+
+@log
 def send_message(sock, message):
     """
     Функция отправки сообщения

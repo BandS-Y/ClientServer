@@ -9,11 +9,13 @@ from errors import ReqFieldMissingError
 from common.variables import DEF_IP_ADDR, DEF_PORT, ACTION, TIME, ACCOUNT_NAME, USER, PRESENCE, RESPONSE, ERROR
 from socket import socket, AF_INET, SOCK_STREAM
 from common.utils import get_message, send_message
+from decos import log
 
 # Инициализация клиентского логера
 CLIENT_LOGGER = logging.getLogger('client')
 
 
+@log
 def create_precense(account_name='Guest'):
     """
     Создаём сообщение приветствие для сервера
@@ -29,6 +31,7 @@ def create_precense(account_name='Guest'):
     }
 
 
+@log
 def process_ans(message):
     """
     Разбираем ответ сервера
@@ -45,6 +48,8 @@ def process_ans(message):
         return f'400 : {message[ERROR]}'
     raise ValueError
 
+
+@log
 def command_line_def():
     """
     Обработка командной строки

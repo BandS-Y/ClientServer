@@ -11,11 +11,13 @@ from common.utils import get_message, send_message
 from socket import socket, AF_INET, SOCK_STREAM, SO_REUSEADDR, SOL_SOCKET
 
 from errors import IncorrectDataRecivedError
+from decos import log
 
 #Инициализация логирования сервера.
 SERVER_LOGGER = logging.getLogger('server')
 
 
+@log
 def process_client_message(message):
     """
     Принимаем обращение от клиента
@@ -35,6 +37,8 @@ def process_client_message(message):
     SERVER_LOGGER.error("Сообщение ошибочное {RESPONSE: 400, ERROR: 'Bad Request'}")
     return {RESPONSE: 400, ERROR: 'Bad Request'}
 
+
+@log
 def port_define():
     """
     Обработка командной строки с параметрами порта и IP адреса.
@@ -68,6 +72,7 @@ def port_define():
         # raise ValueError
 
 
+@log
 def addres_define():
     # Проверяем парамет IP адреса
     try:
