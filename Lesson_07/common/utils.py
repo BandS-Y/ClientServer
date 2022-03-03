@@ -15,7 +15,6 @@ def get_message(client):
     :return:
     """
 
-
     encoded_resp = client.recv(MAX_LEN_MESSAGE)  # Получаем сообщение
     if isinstance(encoded_resp, bytes): # Проверяем байты ли мы получли
         print(f' 1 get_message {encoded_resp}')
