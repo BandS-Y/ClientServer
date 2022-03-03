@@ -35,11 +35,16 @@ ACTION = 'action'
 TIME = 'time'
 USER = 'Guest'
 ACCOUNT_NAME = 'account_name'
+SENDER = 'sender'
 
 # Остальное
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
+
+MESSAGE = 'message'
+MESSAGE_TEXT = 'mess_text'
+
 RESPONDEFAULT_IP_ADDR = 'respondefault_ip_addr'
 
 """

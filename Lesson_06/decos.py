@@ -11,7 +11,7 @@ import inspect
 # Метод find () возвращает индекс первого вхождения искомой подстроки,
 # если он найден в данной строке.
 # Если его не найдено, - возвращает -1.
-if sys.argv[0].find('client.py') == -1:
+if sys.argv[0].find('client_listen.py') == -1:
     # если не клиент то сервер!
     LOGGER = logging.getLogger('server')
 else:

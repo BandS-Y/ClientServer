@@ -46,17 +46,17 @@ class TestClass(unittest.TestCase):
 
     def test_command_line_right_addres(self):
         # Тест корректного порта
-        with patch.object(sys, 'argv', ['client.py', '127.0.0.1', '7788']):
+        with patch.object(sys, 'argv', ['client_listen.py', '127.0.0.1', '7788']):
             self.assertEqual(command_line_def(),('127.0.0.1', 7788))
 
     def test_command_line_empty(self):
         # Тест корректной пустой строки
-        with patch.object(sys, 'argv', ['client.py']):
+        with patch.object(sys, 'argv', ['client_listen.py']):
             self.assertEqual(command_line_def(),('127.0.0.1', 7777))
 
     # ест с ошибкой пока сделать не смог. Попробую после разбора ДЗ
     # def test_command_line_wrong_port(self):
-    #     with patch.object(sys, 'argv', ['client.py', '127.0.0.1', '1000']):
+    #     with patch.object(sys, 'argv', ['client_listen.py', '127.0.0.1', '1000']):
     #         self.assertRaises(SystemExit, command_line_def(),('127.0.0.1', 7777))
 
 if __name__ == '__main__':
