@@ -1,0 +1,800 @@
+2022-03-02 23:44:07,853 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-02 23:44:07,855 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-02 23:44:07,857 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-02 23:44:07,858 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-02 23:58:29,261 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-02 23:58:29,263 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-02 23:58:29,265 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-02 23:58:29,265 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-02 23:58:30,271 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-02 23:58:30,271 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-02 23:58:30,271 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-02 23:58:38,243 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240318.2437093, 'account_name': 'Guest', 'mess_text': 'test'}
+2022-03-02 23:59:08,471 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240348.4715576, 'account_name': 'Guest', 'mess_text': 'test'}
+2022-03-02 23:59:13,238 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240353.238288, 'account_name': 'Guest', 'mess_text': 'askdfulsadi'}
+2022-03-02 23:59:13,238 ERROR    client_send.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-03-02 23:59:41,463 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-02 23:59:41,465 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:00:51,649 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:00:51,650 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:00:51,652 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:00:51,652 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:00:51,653 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:00:51,653 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:00:51,653 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:00:56,690 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240456.690843, 'account_name': 'Guest', 'mess_text': 'test'}
+2022-03-03 00:01:08,665 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240468.665215, 'account_name': 'Guest', 'mess_text': 'sdlkjafsdfkjjfdsa'}
+2022-03-03 00:01:10,724 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240470.7245312, 'account_name': 'Guest', 'mess_text': 'dkjhflskjdaf'}
+2022-03-03 00:01:10,724 ERROR    client_send.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-03-03 00:02:52,018 DEBUG    client_listen.py Разбираем коммандную строку : ['client_listen.py', '-m', 'send']
+2022-03-03 00:02:52,140 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:02:52,140 DEBUG    client_listen.py Разбираем коммандную строку : ['client_listen.py', '-m', 'listen']
+2022-03-03 00:02:52,140 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,180 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:02:52,180 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,311 DEBUG    client_listen.py Разбираем коммандную строку : ['client_listen.py', '-m', 'send']
+2022-03-03 00:02:52,338 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:02:52,338 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,340 DEBUG    client_listen.py Разбираем коммандную строку : ['client_listen.py', '-m', 'listen']
+2022-03-03 00:02:52,357 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:02:52,357 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,358 DEBUG    client_listen.py Разбираем коммандную строку : ['client_listen.py', '-m', 'listen']
+2022-03-03 00:02:52,359 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:02:52,359 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:02:52,359 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,360 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63664), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646240572.3599632, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,361 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:02:52,362 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,364 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:02:52,364 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:02:52,364 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,365 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63664), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,365 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63665), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646240572.3649614, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,365 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:02:52,365 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:02:52,366 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,366 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:02:52,372 DEBUG    client_listen.py Разбираем коммандную строку : ['client_listen.py', '-m', 'listen']
+2022-03-03 00:02:52,374 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:02:52,374 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,377 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:02:52,378 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63665), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,378 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:02:52,377 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:02:52,378 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:02:52,378 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,378 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,378 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:02:52,378 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63666), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646240572.3789651, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,404 DEBUG    client_listen.py Разбираем коммандную строку : ['client_listen.py', '-m', 'listen']
+2022-03-03 00:02:52,407 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:02:52,407 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,409 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:02:52,409 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:02:52,410 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,410 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63667), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646240572.4109607, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,411 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63666), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,411 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:02:52,411 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:02:52,411 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,411 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:02:52,651 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:02:52,651 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:02:52,651 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,652 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63661), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646240572.6519654, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,653 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63667), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,653 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:02:52,653 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:02:52,653 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,653 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:02:52,654 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63661), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,654 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:02:52,654 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:02:52,654 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,654 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:02:52,683 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:02:52,683 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:02:52,683 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,684 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63662), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646240572.68397, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,856 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:02:52,856 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:02:52,856 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,857 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63663), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646240572.856388, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,857 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63662), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:52,857 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:02:52,857 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:02:52,857 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:02:52,857 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:02:53,871 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63663), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:02:53,871 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:02:53,871 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:02:53,871 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:02:53,871 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:03:22,236 DEBUG    client_listen.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240602.2369077, 'account_name': 'Guest', 'mess_text': 'kdsjfhewshfiusad'}
+2022-03-03 00:03:22,237 DEBUG    decos.py Была вызвана функция create_message c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63663), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля __main__.
+2022-03-03 00:03:22,237 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63663), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1646240602.2369077, 'account_name': 'Guest', 'mess_text': 'kdsjfhewshfiusad'}), {}.Вызов из модуля common.utils.
+2022-03-03 00:05:00,256 DEBUG    client_send.py Разбираем коммандную строку : ['client_send.py', '-m', 'send']
+2022-03-03 00:05:00,259 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:05:00,261 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:05:00,261 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:05:00,265 DEBUG    client_send.py Разбираем коммандную строку : ['client_send.py', '-m', 'send']
+2022-03-03 00:05:00,267 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:05:00,269 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:05:00,270 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:05:00,271 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:05:00,271 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:05:00,272 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:05:00,318 DEBUG    client_send.py Разбираем коммандную строку : ['client_send.py', '-m', 'listen']
+2022-03-03 00:05:00,320 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:05:00,322 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:05:00,322 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:05:00,324 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:05:00,324 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:05:00,324 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:05:00,334 DEBUG    client_send.py Разбираем коммандную строку : ['client_send.py', '-m', 'listen']
+2022-03-03 00:05:00,336 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:05:00,337 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:05:00,337 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:05:00,339 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:05:00,339 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:05:00,339 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:05:01,351 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:05:01,351 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:05:01,352 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:05:12,834 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240712.8345537, 'account_name': 'Guest', 'mess_text': 'kdsjhfksudflk'}
+2022-03-03 00:09:34,900 DEBUG    client_send.py Разбираем коммандную строку : ['client_send.py', '-m', 'send']
+2022-03-03 00:09:34,905 DEBUG    client_send.py Разбираем коммандную строку : ['client_send.py', '-m', 'send']
+2022-03-03 00:09:34,910 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:09:34,914 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:09:34,990 DEBUG    client_send.py Разбираем коммандную строку : ['client_send.py', '-m', 'listen']
+2022-03-03 00:09:34,993 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:09:34,996 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:09:34,997 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:09:35,031 DEBUG    client_send.py Разбираем коммандную строку : ['client_send.py', '-m', 'listen']
+2022-03-03 00:09:35,033 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:09:35,036 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:09:35,036 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:09:35,038 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:09:35,038 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:09:35,038 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:09:35,427 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:09:35,427 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:09:35,427 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:09:35,428 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:09:35,429 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:09:35,429 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:09:35,430 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:09:35,430 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:09:35,430 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:09:35,431 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:09:35,431 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:09:35,431 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:09:47,501 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646240987.5012493, 'account_name': 'Guest', 'mess_text': 'sfdhuALIKUS'}
+2022-03-03 00:10:56,142 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:10:56,143 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:10:56,144 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:10:56,145 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:10:56,145 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:10:56,146 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:10:56,146 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63760), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646241056.1464522, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:10:57,148 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63760), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:10:57,148 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:10:57,148 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:10:57,148 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:10:57,149 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:11:04,898 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:11:04,899 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:11:04,901 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:11:04,901 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:11:05,912 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:11:05,912 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:11:05,912 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:11:57,777 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646241117.7773302, 'account_name': 'Guest', 'mess_text': 'segdsrgrdF'}
+2022-03-03 00:15:08,973 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:15:08,974 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:15:08,974 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:15:08,976 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:15:08,976 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:15:08,977 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:15:08,977 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63810), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646241308.9777842, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:15:09,981 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63810), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:15:09,981 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:15:09,981 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:15:09,981 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:15:09,981 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:15:20,005 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646241320.0053742, 'account_name': 'Guest', 'mess_text': 'ddd'}
+2022-03-03 00:15:20,006 ERROR    client_send.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-03-03 00:15:32,156 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:15:32,157 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:15:32,158 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:15:32,158 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:15:33,170 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:15:33,170 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:15:33,170 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:15:37,518 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646241337.518694, 'account_name': 'Guest', 'mess_text': 'dfsd'}
+2022-03-03 00:19:28,968 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:19:28,970 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:19:28,970 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:19:28,972 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:19:28,972 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:19:28,972 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:19:28,972 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63853), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646241568.9726613, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:19:29,986 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63853), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:19:29,986 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:19:29,986 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:19:29,987 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:19:29,987 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:19:41,176 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646241581.1762948, 'account_name': 'Guest', 'mess_text': 'dsfsd'}
+2022-03-03 00:19:41,177 ERROR    client_send.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-03-03 00:19:48,028 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:19:48,030 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:19:48,031 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:19:48,031 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:19:49,047 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:19:49,047 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:19:49,048 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:19:54,921 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646241594.921765, 'account_name': 'Guest', 'mess_text': 'sddfsd'}
+2022-03-03 00:25:08,744 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:25:08,745 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:25:08,745 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:25:08,747 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:25:08,747 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:25:08,747 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:25:08,748 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63912), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646241908.7474678, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:25:09,760 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63912), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:25:09,760 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:25:09,760 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:25:09,760 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:25:09,760 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:25:16,137 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:25:16,139 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:25:16,140 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:25:16,140 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:25:17,146 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:25:17,146 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:25:17,146 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:25:21,420 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646241921.420538, 'account_name': 'Guest', 'mess_text': 'sdfa'}
+2022-03-03 00:29:02,743 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:29:02,745 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:29:02,745 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:29:02,746 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:29:02,746 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:29:02,747 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:29:02,747 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63947), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646242142.7466648, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:29:03,754 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63947), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:29:03,754 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:29:03,754 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:29:03,754 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:29:03,754 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:29:06,979 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:29:06,980 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:29:06,981 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:29:06,981 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:29:07,986 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:29:07,986 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:29:07,986 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:29:13,606 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646242153.6066122, 'account_name': 'Guest', 'mess_text': 'выаы'}
+2022-03-03 00:37:47,638 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:37:47,639 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:37:47,640 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:37:47,640 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:37:47,642 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:37:47,642 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:37:47,642 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:37:52,312 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:37:52,313 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:37:52,313 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:37:52,315 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:37:52,315 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:37:52,315 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:37:52,315 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64041), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646242672.3154242, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:37:52,316 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64041), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:37:52,316 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:37:52,317 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:37:52,317 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:37:52,317 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:37:58,767 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646242678.7672713, 'account_name': 'Guest', 'mess_text': 'выфаы'}
+2022-03-03 00:42:02,264 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:42:02,266 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:42:02,266 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:42:02,267 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:42:02,267 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:42:02,268 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:42:02,268 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64099), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646242922.2681627, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:42:03,271 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64099), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:42:03,271 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:42:03,271 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:42:03,271 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:42:03,271 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:42:05,254 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:42:05,255 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:42:05,257 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:42:05,257 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:42:06,263 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:42:06,263 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:42:06,264 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:42:10,580 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646242930.580086, 'account_name': 'Guest', 'mess_text': 'egAREW'}
+2022-03-03 00:47:00,915 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:47:00,917 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:47:00,918 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:47:00,919 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:47:01,924 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:47:01,924 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:47:01,924 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:47:06,197 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:47:06,198 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:47:06,198 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:47:06,200 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:47:06,200 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:47:06,200 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:47:06,200 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64146), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646243226.2001834, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:47:07,204 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64146), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:47:07,204 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:47:07,204 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:47:07,204 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:47:07,204 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:48:02,577 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646243282.5777566, 'account_name': 'Guest', 'mess_text': 'ewrwaer'}
+2022-03-03 00:50:03,651 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:50:03,653 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:50:03,654 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:50:03,654 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:50:04,663 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:50:04,663 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:50:04,663 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:50:06,631 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:50:06,632 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:50:06,632 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:50:06,634 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:50:06,634 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:50:06,634 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:50:06,635 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64184), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646243406.6348922, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:50:07,644 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64184), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:50:07,644 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:50:07,644 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:50:07,644 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:50:07,644 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:50:13,912 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646243413.91281, 'account_name': 'Guest', 'mess_text': 'цуф'}
+2022-03-03 00:54:52,064 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:54:52,066 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:54:52,067 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:54:52,068 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:54:55,558 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:54:55,559 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:54:55,559 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:54:55,561 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:54:55,561 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:54:55,561 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:54:55,561 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64222), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646243695.5618174, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:55:57,887 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:55:57,889 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:55:57,889 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:55:57,890 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:55:57,890 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:55:57,890 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:55:57,891 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64228), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646243757.8908918, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:56:17,519 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:56:17,520 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:56:17,522 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:56:17,522 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:56:56,428 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 00:56:56,429 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:56:56,431 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 00:56:56,431 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:56:56,432 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:56:56,433 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:56:56,433 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 00:57:00,774 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 00:57:00,776 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 00:57:00,776 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:57:00,777 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 00:57:00,777 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 00:57:00,778 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 00:57:00,778 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64245), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646243820.7780237, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 00:57:01,792 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64245), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 00:57:01,792 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 00:57:01,792 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 00:57:01,792 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 00:57:01,792 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 00:57:07,008 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646243827.0083208, 'account_name': 'Guest', 'mess_text': 'dsfs'}
+2022-03-03 01:04:33,037 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:04:33,038 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:04:33,040 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:04:33,040 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:04:34,047 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:04:34,047 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:04:34,047 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:04:37,675 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:04:37,676 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:04:37,676 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:04:37,677 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:04:37,677 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:04:37,677 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:04:37,678 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64323), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646244277.6773245, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:04:37,679 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64323), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:04:37,679 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:04:37,679 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:04:37,679 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:04:37,679 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:04:43,561 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646244283.5612128, 'account_name': 'Guest', 'mess_text': 'afde'}
+2022-03-03 01:12:29,043 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:12:29,044 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:12:29,044 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:12:29,045 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:12:29,046 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:12:29,046 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:12:29,046 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64416), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646244749.0467575, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:12:29,047 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64416), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:12:29,047 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:12:29,047 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:12:29,047 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:12:29,047 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:12:33,152 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:12:33,153 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:12:33,155 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:12:33,155 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:12:34,169 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:12:34,169 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:12:34,169 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:12:46,055 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646244766.055637, 'account_name': 'Guest', 'mess_text': 'aaaaa'}
+2022-03-03 01:16:58,051 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:16:58,053 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:16:58,054 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:16:58,054 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:16:59,066 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:16:59,066 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:16:59,066 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:17:00,804 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:17:00,805 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:17:00,805 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:17:00,806 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:17:00,806 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:17:00,806 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:17:00,807 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64447), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245020.8066547, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:17:00,807 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64447), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:17:00,807 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:17:00,808 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:17:00,808 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:17:00,808 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:17:15,449 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646245035.4491825, 'account_name': 'Guest', 'mess_text': 'aaaa'}
+2022-03-03 01:18:03,613 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:18:03,614 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:18:03,614 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:18:03,615 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:18:03,616 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:18:03,616 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:18:03,616 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64470), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245083.6167443, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:18:04,632 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64470), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:18:04,632 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:18:04,632 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:18:04,632 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:18:04,632 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:18:09,177 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646245089.1777394, 'account_name': 'Guest', 'mess_text': 'asdasd'}
+2022-03-03 01:18:18,410 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646245098.4105, 'account_name': 'Guest', 'mess_text': 'dsfsdf'}
+2022-03-03 01:18:18,411 ERROR    client_send.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-03-03 01:18:31,855 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:18:31,856 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:18:31,858 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:18:31,858 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:18:32,874 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:18:32,874 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:18:32,874 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:18:36,811 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646245116.811288, 'account_name': 'Guest', 'mess_text': 'dsfdsf'}
+2022-03-03 01:20:43,722 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:20:43,724 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:20:43,726 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:20:43,726 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:20:44,736 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:20:44,736 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:20:44,737 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:20:46,687 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:20:46,688 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:20:46,688 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:20:46,689 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:20:46,689 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:20:46,690 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:20:46,690 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=220, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64486), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245246.6890562, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:20:47,700 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=220, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64486), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:20:47,700 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:20:47,700 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:20:47,700 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:20:47,700 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:20:47,700 INFO     client_listen.py  сообщение <socket.socket fd=220, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64486), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:24:18,213 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:24:18,215 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:24:18,215 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:24:18,216 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:24:18,216 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:24:18,216 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:24:18,217 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=228, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64521), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245458.2162244, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:24:18,217 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=228, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64521), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:24:18,217 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:24:18,218 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:24:18,218 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:24:18,218 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:24:18,218 INFO     client_listen.py  сообщение <socket.socket fd=228, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64521), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:24:23,750 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:24:23,751 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:24:23,753 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:24:23,753 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:24:24,759 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:24:24,759 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:24:24,759 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:24:38,915 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646245478.9140244, 'account_name': 'Guest', 'mess_text': 'dfsd'}
+2022-03-03 01:26:08,464 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:26:08,466 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:26:08,467 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:26:08,467 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:26:09,470 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:26:09,471 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:26:09,471 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:26:32,241 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:26:32,250 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:26:32,251 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:26:32,253 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:26:32,254 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:26:32,254 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:26:32,256 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64540), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245592.2541552, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:26:33,257 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64540), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:26:33,257 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:26:33,257 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:26:33,257 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:26:33,257 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:27:17,236 INFO     client_listen.py  сообщение <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64540), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:27:35,862 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:27:35,864 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:27:35,867 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:27:35,867 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:27:36,870 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:27:36,871 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:27:36,871 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:27:42,200 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646245662.2003894, 'account_name': 'Guest', 'mess_text': 'dsaasd'}
+2022-03-03 01:28:40,770 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646245720.7707193, 'account_name': 'Guest', 'mess_text': 'adas'}
+2022-03-03 01:28:54,486 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:28:54,495 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:28:54,495 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:28:54,497 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:28:54,497 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:28:54,498 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:28:54,501 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64570), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245734.498675, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:28:55,506 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64570), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:28:55,507 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:28:55,507 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:28:55,507 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:28:55,507 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:29:01,643 INFO     client_listen.py  сообщение <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64570), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:29:11,223 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:29:11,232 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:29:11,232 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:29:11,234 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:29:11,234 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:29:11,234 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:29:11,237 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=736, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64575), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245751.2340388, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:29:12,235 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=736, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64575), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:29:12,236 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:29:12,236 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:29:12,236 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:29:12,236 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:30:22,591 INFO     client_listen.py  сообщение <socket.socket fd=736, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64575), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:31:06,767 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:31:06,774 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:31:06,774 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:31:06,775 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:31:06,776 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:31:06,777 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:31:06,780 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=780, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64592), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245866.7773051, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:31:20,359 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:31:20,365 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:31:20,366 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:31:20,368 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:31:20,369 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:31:20,369 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:31:20,373 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64611), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245880.3699217, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:31:21,387 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64611), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:31:21,387 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:31:21,387 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:31:21,387 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:31:21,387 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:31:33,012 INFO     client_listen.py  сообщение <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64611), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:32:06,451 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:32:06,459 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:32:06,459 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:32:06,461 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:32:06,461 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:32:06,462 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:32:06,463 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=672, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64623), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245926.4610763, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:32:21,030 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:32:21,035 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:32:21,035 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:32:21,036 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:32:21,036 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:32:21,036 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:32:21,038 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=748, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64628), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245941.0367942, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:32:22,039 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=748, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64628), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:32:22,039 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:32:22,039 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:32:22,039 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:32:22,039 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:32:34,340 INFO     client_listen.py  сообщение <socket.socket fd=748, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64628), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:33:15,437 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:33:15,441 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:33:15,442 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:33:15,443 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:33:15,443 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:33:15,443 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:33:15,444 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=732, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64635), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646245995.4436724, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:34:47,412 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=732, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64635), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:34:47,412 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:34:47,412 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:34:47,412 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:34:47,413 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:36:00,048 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:36:00,050 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:36:00,051 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:36:00,051 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:36:01,065 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:36:01,065 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:36:01,066 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:36:16,825 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:36:16,832 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:36:16,832 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:36:16,834 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:36:16,835 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:36:16,835 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:36:16,839 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=692, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64664), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646246176.8350286, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:36:49,081 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=692, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64664), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:37:08,775 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:37:08,776 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:37:08,777 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:37:08,777 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:37:17,052 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646246237.0521686, 'account_name': 'Guest', 'mess_text': 'ывпаыуауцфыа'}
+2022-03-03 01:37:27,282 INFO     client_listen.py  сообщение <socket.socket fd=692, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64664), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:39:31,737 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:39:31,743 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:39:31,743 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:39:31,745 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:39:31,747 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:39:31,747 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:39:31,751 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=704, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64689), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646246371.7473752, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:39:45,058 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:39:45,059 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:39:45,060 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:39:45,061 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:39:46,078 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:39:46,079 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:39:46,079 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:39:58,858 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646246398.858201, 'account_name': 'Guest', 'mess_text': 'фывфыв'}
+2022-03-03 01:40:12,218 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=704, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64689), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:40:24,144 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:40:24,145 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:40:24,145 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:40:24,147 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:40:37,775 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646246437.7756252, 'account_name': 'Guest', 'mess_text': 'ыуакуцфкуц'}
+2022-03-03 01:40:50,485 INFO     client_listen.py  сообщение <socket.socket fd=704, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64689), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:45:33,082 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:45:33,083 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:45:33,085 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:45:33,085 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:45:34,090 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:45:34,090 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:45:34,090 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:45:34,090 INFO     client_send.py  сообщение отправляем <socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64754), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:45:47,333 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:45:47,339 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:45:47,339 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:45:47,340 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:45:47,340 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:45:47,341 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:46:27,280 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:46:27,281 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:46:27,281 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:46:27,283 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:46:27,283 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:46:27,283 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:46:27,284 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64778), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646246787.2835052, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:46:28,296 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64778), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:46:28,296 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:46:28,296 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:46:28,296 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:46:28,296 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:46:28,297 INFO     client_listen.py  сообщение <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64778), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:46:39,092 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:46:39,101 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:46:39,104 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:46:39,105 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:46:40,114 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:46:40,114 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:46:40,114 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:46:40,115 INFO     client_send.py  сообщение отправляем <socket.socket fd=700, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64786), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:47:00,744 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646246820.7447221, 'account_name': 'Guest', 'mess_text': 'фыаыв'}
+2022-03-03 01:57:39,354 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 01:57:39,355 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:57:39,357 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 01:57:39,357 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:57:40,369 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:57:40,369 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:57:40,369 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 01:57:40,369 INFO     client_send.py  сообщение отправляем <socket.socket fd=152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64872), raddr=('127.0.0.1', 7777)>
+2022-03-03 01:57:43,391 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 01:57:43,392 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 01:57:43,392 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:57:43,394 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 01:57:43,394 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 01:57:43,394 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 01:57:43,394 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=140, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64874), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646247463.3940506, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 01:57:44,406 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=140, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64874), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 01:57:44,406 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 01:57:44,406 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 01:57:44,406 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 01:57:44,406 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 01:57:44,406 INFO     client_listen.py  сообщение <socket.socket fd=140, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64874), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:02:56,074 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646247776.0737426, 'account_name': 'Guest', 'mess_text': 'ФАВЫА'}
+2022-03-03 02:02:56,074 INFO     client_send.py  сообщение отправляем <socket.socket fd=152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64872), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:13:04,997 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 02:13:04,998 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 02:13:04,998 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 02:13:04,999 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 02:13:04,999 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 02:13:05,000 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 02:13:05,000 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65000), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646248385.0004663, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 02:13:06,005 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65000), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 02:13:06,005 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 02:13:06,005 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 02:13:06,005 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 02:13:06,005 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 02:13:06,005 INFO     client_listen.py  ШТ сообщение <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65000), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:13:11,188 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 02:13:11,189 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 02:13:11,190 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 02:13:11,190 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 02:13:12,197 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 02:13:12,197 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 02:13:12,197 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 02:13:12,197 INFO     client_send.py  сообщение отправляем <socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65001), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:14:26,898 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646248466.898784, 'account_name': 'Guest', 'mess_text': 'asdasd'}
+2022-03-03 02:14:26,899 INFO     client_send.py  сообщение отправляем <socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65001), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:15:32,597 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 02:15:32,599 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 02:15:32,600 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 02:15:32,600 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 02:15:33,609 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 02:15:33,609 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 02:15:33,609 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 02:15:33,609 INFO     client_send.py  сообщение отправляем <socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65008), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:15:35,910 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 02:15:35,911 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 02:15:35,911 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 02:15:35,913 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 02:15:35,913 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 02:15:35,913 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 02:15:35,913 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65009), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646248535.9138486, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 02:15:36,914 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65009), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 02:15:36,914 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 02:15:36,914 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 02:15:36,914 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 02:15:36,914 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 02:15:36,914 INFO     client_listen.py  ШТ сообщение <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65009), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:15:57,316 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646248557.3165667, 'account_name': 'Guest', 'mess_text': 'asdasdsad'}
+2022-03-03 02:15:57,317 INFO     client_send.py  сообщение отправляем <socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65008), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:18:00,214 DEBUG    client_listen.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_listen.py']
+2022-03-03 02:18:00,216 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 02:18:00,216 DEBUG    decos.py Была вызвана функция command_line_def c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 02:18:00,217 INFO     client_listen.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-03-03 02:18:00,217 DEBUG    client_listen.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 02:18:00,217 DEBUG    decos.py Была вызвана функция create_precense c параметрами (), {}.Вызов из модуля __main__.
+2022-03-03 02:18:00,218 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65017), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1646248680.2171803, 'Guest': {'account_name': 'Guest'}}), {}.Вызов из модуля common.utils.
+2022-03-03 02:18:01,231 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65017), raddr=('127.0.0.1', 7777)>,), {}.Вызов из модуля common.utils.
+2022-03-03 02:18:01,231 DEBUG    client_listen.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 02:18:01,231 DEBUG    client_listen.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 02:18:01,231 DEBUG    decos.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}.Вызов из модуля __main__.
+2022-03-03 02:18:01,231 INFO     client_listen.py Принят ответ от сервера 200 : OK
+2022-03-03 02:18:01,231 INFO     client_listen.py  ШТ сообщение <socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65017), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:18:02,709 DEBUG    client_send.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_07/client_send.py']
+2022-03-03 02:18:02,710 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-03 02:18:02,711 INFO     client_send.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-03-03 02:18:02,712 DEBUG    client_send.py Сформировано presence сообщение для пользователя Guest
+2022-03-03 02:18:03,714 DEBUG    client_send.py Разбор сообщения от сервера: {'response': 200}
+2022-03-03 02:18:03,714 DEBUG    client_send.py Сообщение корректное {RESPONSE: 200}
+2022-03-03 02:18:03,715 INFO     client_send.py Принят ответ от сервера 200 : OK
+2022-03-03 02:18:03,715 INFO     client_send.py  сообщение отправляем <socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65018), raddr=('127.0.0.1', 7777)>
+2022-03-03 02:18:29,722 DEBUG    client_send.py Сформирован словарь сообщения: {'action': 'message', 'time': 1646248709.7229025, 'account_name': 'Guest', 'mess_text': 'asd'}
+2022-03-03 02:18:29,723 INFO     client_send.py  сообщение отправляем <socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65018), raddr=('127.0.0.1', 7777)>
