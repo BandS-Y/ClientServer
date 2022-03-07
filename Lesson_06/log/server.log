@@ -1,0 +1,26 @@
+2022-02-26 22:37:55,853 DEBUG    server.py Разбираем коммандную строку : ['C:/Users/Юрий/Documents/GeekBrains/ClientServer/HW/Lesson_06/server.py']
+2022-02-26 22:37:55,854 INFO     server.py Запущен сервер, порт для подключений: 7777, 
+2022-02-26 22:37:55,897 DEBUG    decos.py Была вызвана функция port_define c параметрами (), {}.Вызов из модуля __main__.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля server.py
+2022-02-26 22:37:55,897 INFO     server.py Запущен сервер, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-02-26 22:37:55,900 DEBUG    decos.py Была вызвана функция addres_define c параметрами (), {}.Вызов из модуля __main__.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля server.py
+2022-02-26 22:37:55,902 INFO     server.py Сервер запущен на IP адресе  и 7777 порту
+2022-02-26 22:38:13,892 INFO     server.py Подключен клинет с адреса 127.0.0.1 и потра 50568
+2022-02-26 22:38:13,897 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50568)>,), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля server.py
+2022-02-26 22:38:13,897 DEBUG    server.py Получено сообщение {'action': 'presence', 'time': 1645889893.892878, 'Guest': {'account_name': 'Guest'}}
+2022-02-26 22:38:13,897 DEBUG    server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645889893.892878, 'Guest': {'account_name': 'Guest'}}
+2022-02-26 22:38:13,898 DEBUG    server.py Сообщение корректное {RESPONSE: 200}
+2022-02-26 22:38:13,899 DEBUG    decos.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1645889893.892878, 'Guest': {'account_name': 'Guest'}},), {}.Вызов из модуля __main__.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля server.py
+2022-02-26 22:38:13,899 INFO     server.py Cформирован ответ клиенту {'response': 200}
+2022-02-26 22:38:13,902 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50568)>, {'response': 200}), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля server.py
+2022-02-26 22:38:13,902 DEBUG    server.py Соединение с клиентом ('127.0.0.1', 50568) закрывается.
+2022-02-26 22:38:13,902 DEBUG    server.py клинет с адреса 127.0.0.1 и потра 50568 отключен
+2022-02-26 22:39:27,183 INFO     server.py Подключен клинет с адреса 127.0.0.1 и потра 51092
+2022-02-26 22:39:27,187 DEBUG    decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51092)>,), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля server.py
+2022-02-26 22:39:27,187 DEBUG    server.py Получено сообщение {'action': 'presence', 'time': 1645889967.183578, 'Guest': {'account_name': 'Guest'}}
+2022-02-26 22:39:27,188 DEBUG    server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1645889967.183578, 'Guest': {'account_name': 'Guest'}}
+2022-02-26 22:39:27,188 DEBUG    server.py Сообщение корректное {RESPONSE: 200}
+2022-02-26 22:39:27,189 DEBUG    decos.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1645889967.183578, 'Guest': {'account_name': 'Guest'}},), {}.Вызов из модуля __main__.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля server.py
+2022-02-26 22:39:27,189 INFO     server.py Cформирован ответ клиенту {'response': 200}
+2022-02-26 22:39:27,192 DEBUG    decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51092)>, {'response': 200}), {}.Вызов из модуля common.utils.Вызов из функции main().Вызов из функции main@@@Вызов из функции main@@@вызов из модуля server.py
+2022-02-26 22:39:27,192 DEBUG    server.py Соединение с клиентом ('127.0.0.1', 51092) закрывается.
+2022-02-26 22:39:27,192 DEBUG    server.py клинет с адреса 127.0.0.1 и потра 51092 отключен
