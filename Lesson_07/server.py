@@ -116,9 +116,9 @@ def main():
     # Организуем сокет
 
     transport = socket(AF_INET, SOCK_STREAM)
-    transport.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
+    # transport.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
     transport.bind((listen_addres, listen_port))
-    transport.settimeout(1)
+    transport.settimeout(0.5)
 
     # список клиентов , очередь сообщений
     clients = []
